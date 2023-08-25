@@ -134,6 +134,30 @@
     overflow: scroll;
   }
 }
+
+.header-list-nav::-webkit-scrollbar {
+  display: none; /* Для Webkit (Chrome, Safari) */
+}
+.desktop-hidden {
+  display: none;
+
+  @media (max-width: 600px) {
+    display: flex;
+  }
+}
+
+.mobile-flex {
+  @media (max-width: 600px) {
+    display: flex;
+  }
+}
+
+.mar-top {
+  @media (max-width: 600px) {
+    margin-top: 6px;
+  }
+}
+
 .weather-header {
   display: flex;
 
@@ -152,6 +176,11 @@
   background-color: rgb(120, 131, 131);
 
   gap: 1px;
+
+  @media (max-width: 600px) {
+    box-shadow: -20px 0 10px -5px rgba(0, 0, 0, 0.3);
+    /* padding: 7px; */
+  }
 }
 .header-menu-item {
   display: flex;
@@ -162,6 +191,7 @@
   background-color: #3a3a3a;
 
   @media (max-width: 600px) {
+    /* box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.3); */
     padding: 7px;
   }
 }
@@ -190,12 +220,17 @@
 .header-bottom-list {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 
   @media (max-width: 600px) {
     overflow: scroll;
   }
 }
+
+.header-bottom-list::-webkit-scrollbar {
+  display: none;
+}
+
 .header-bottom-link {
   color: #cf2528;
   font-size: 13px;
@@ -203,8 +238,12 @@
 
 .header-bottom-item {
   position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
+
+  /* padding: 7px; */
+
+  font-size: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .header-bottom-item:not(:last-child) .header-bottom-link::after {
@@ -213,8 +252,8 @@
 
   position: absolute;
 
-  top: 12px;
-  right: -6px;
+  top: 11px;
+  right: -9px;
 
   width: 1px;
   height: 11px;
@@ -225,8 +264,9 @@
 }
 
 .header-bottom-button {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 8px;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
 
   font-size: 13px;
   font-weight: bold;
@@ -237,6 +277,13 @@
 
   background-color: #dbe6ef;
   color: #3f6ea7;
+
+  @media (max-width: 600px) {
+    display: flex;
+    align-items: center;
+    width: 330px;
+    box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.3);
+  }
 }
 /* //////////////////////////////////////////////////FOOTER */
 .footer-container {
