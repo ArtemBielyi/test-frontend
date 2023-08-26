@@ -196,7 +196,7 @@
           <a href="" class="logo">SME</a>
           <ul class="header-list">
             <li class="test-lifnk mobile-hidden">
-              <a href="" class="test-link">
+              <a href="" class="decor-link">
                 <p class="subscribe-text">Správy</p>
                 <svg
                   class="header-menu-svg mb"
@@ -209,7 +209,7 @@
               </a>
             </li>
             <li class="test-lifnk mobile-hidden">
-              <a href="" class="test-link">
+              <a href="" class="decor-link">
                 <p class="subscribe-text">Služby</p>
                 <svg
                   class="header-menu-svg mb"
@@ -310,7 +310,7 @@
       <div class="header-class">
         <div class="header-container container flex">
           <ul class="header-list-nav">
-            <li class="header-item accent-color">
+            <li class="accent-color">
               <a href="#order_form" class="header-link">SME.sk</a>
             </li>
             <li class="header-item weather-header">
@@ -369,7 +369,6 @@
               <a href="#order_form" class="header-link">BLOG</a>
             </li>
           </ul>
-
           <ul class="header-menu">
             <li class="header-menu-item">
               <a href="#order_form" class="header-menu-link">
@@ -1579,7 +1578,8 @@
     <!-- ==== FOOTER ==== -->
     <div class="footer-bg">
       <div class="footer-container">
-        <span class="footer-logo">SME</span>
+        <a href="" class="footer-logo">SME</a>
+        <span></span>
         <ul class="footer-list">
           <li><a href="" class="footer-list-link">Kontakty</a></li>
           <li><a href="" class="footer-list-link">Redakcia</a></li>
@@ -1590,57 +1590,105 @@
           <li><a href="" class="footer-list-link">Mapa stránky</a></li>
           <li><a href="" class="footer-list-link">Odvolanie súhlasov</a></li>
         </ul>
-        <svg class="footer-absolut" fill="#989899" width="20" height="20">
-          <use href="./src/svg/symbol-defs.svg#icon-arrow"></use>
-        </svg>
+        <a href="#"
+          ><svg
+            class="footer-absolut svg-hov"
+            fill="#989899"
+            width="20"
+            height="20"
+          >
+            <use href="./src/svg/symbol-defs.svg#icon-arrow"></use></svg
+        ></a>
       </div>
       <div class="footer-padding">
         <ul class="footer-control">
           <li class="footer-control-item">
-            <svg class="" fill="#989899" width="50" height="50">
-              <use href="./src/svg/symbol-defs.svg#icon-rss"></use>
-            </svg>
-            <p class="footer-control-text">RSS</p>
+            <a href="">
+              <svg class="svg-hov" fill="#989899" width="50" height="50">
+                <use href="./src/svg/symbol-defs.svg#icon-rss"></use>
+              </svg>
+              <p class="footer-control-text">RSS</p></a
+            >
           </li>
           <li class="footer-control-item">
-            <svg class="" fill="#989899" width="50" height="50">
-              <use href="./src/svg/symbol-defs.svg#icon-mail"></use>
-            </svg>
-            <p class="footer-control-text">Newsletter</p>
+            <a href=""
+              ><svg class="svg-hov" fill="#989899" width="50" height="50">
+                <use href="./src/svg/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              <p class="footer-control-text">Newsletter</p></a
+            >
           </li>
           <li class="footer-control-item">
-            <svg class="" fill="#989899" width="50" height="50">
-              <use href="./src/svg/symbol-defs.svg#icon-smartphone"></use>
-            </svg>
-            <p class="footer-control-text">Aplikácia</p>
+            <a href=""
+              ><svg class="svg-hov" fill="#989899" width="50" height="50">
+                <use href="./src/svg/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              <p class="footer-control-text">Aplikácia</p></a
+            >
           </li>
           <li class="footer-control-item footer-tablet-absolut">
-            <svg class="" fill="#989899" width="60" height="60">
-              <use href="./src/svg/symbol-defs.svg#icon-tablet"></use>
-            </svg>
-            <p class="footer-control-text">iPad</p>
+            <a href="">
+              <svg class="svg-hov" fill="#989899" width="60" height="60">
+                <use href="./src/svg/symbol-defs.svg#icon-tablet"></use>
+              </svg>
+              <p class="footer-control-text">iPad</p></a
+            >
           </li>
         </ul>
         <ul class="footer-subscribe">
           <li>
-            <svg class="" fill="#004396" width="35" height="35">
-              <use href="./src/svg/symbol-defs.svg#icon-fb-sq"></use>
-            </svg>
+            <a
+              href="http://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              class="social__link"
+            >
+              <svg class="svg-hov" fill="#004396" width="35" height="35">
+                <use href="./src/svg/symbol-defs.svg#icon-fb-sq"></use></svg
+            ></a>
           </li>
           <li>
-            <svg class="" fill="#00c3ff" width="35" height="35">
-              <use href="./src/svg/symbol-defs.svg#icon-twitter-sq"></use>
-            </svg>
+            <a
+              href="http://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter"
+              class="social__link"
+            >
+              <svg class="svg-hov" fill="#00c3ff" width="35" height="35">
+                <use
+                  href="./src/svg/symbol-defs.svg#icon-twitter-sq"
+                ></use></svg
+            ></a>
+          </li>
+          <li class="social_link">
+            <a
+              href="http://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              class="social__link"
+            >
+              <svg class="svg-hov" fill="#ff28bf" width="35" height="35">
+                <use
+                  href="./src/svg/symbol-defs.svg#icon-instagram-sq"
+                ></use></svg
+            ></a>
           </li>
           <li>
-            <svg class="" fill="#ff28bf" width="35" height="35">
-              <use href="./src/svg/symbol-defs.svg#icon-instagram-sq"></use>
-            </svg>
-          </li>
-          <li>
-            <svg class="" fill="#ff0000" width="35" height="35">
-              <use href="./src/svg/symbol-defs.svg#icon-youtube-sq"></use>
-            </svg>
+            <a
+              href="http://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              class="social__link"
+            >
+              <svg class="svg-hov" fill="#ff0000" width="35" height="35">
+                <use
+                  href="./src/svg/symbol-defs.svg#icon-youtube-sq"
+                ></use></svg
+            ></a>
           </li>
         </ul>
 
