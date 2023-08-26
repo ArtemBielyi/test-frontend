@@ -41,6 +41,10 @@
 .mb {
   margin-bottom: 2px;
 }
+
+.mt {
+  margin-top: 4px;
+}
 .flex {
   display: flex;
   align-items: center;
@@ -111,8 +115,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 9px;
+  padding-bottom: 7px;
 
   color: #313131;
 }
