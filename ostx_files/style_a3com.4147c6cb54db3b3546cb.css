@@ -2170,7 +2170,7 @@ body.neox .article-main p a:hover,
 body.nova .article-main p a:hover,
 p a:hover {
   border-bottom-color: #000;
-  color: #000000;
+  color: #000;
 }
 .blockquote {
   margin: 0;
