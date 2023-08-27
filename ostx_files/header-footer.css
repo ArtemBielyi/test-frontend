@@ -13,12 +13,20 @@
   border-bottom: 1px solid rgb(150, 145, 145);
 }
 .logo {
+  padding-top: 5px;
+
   margin-right: 8px;
+
   font-family: "Archivo Black", sans-serif;
   font-size: 16px;
 
   color: #c71c1f;
 }
+
+.logo:hover {
+  color: #c71c1f;
+}
+
 .mobile-hidden {
   @media (max-width: 600px) {
     display: none;
@@ -115,7 +123,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 
-  padding-top: 9px;
+  padding-top: 11px;
   padding-bottom: 7px;
 
   color: #313131;
